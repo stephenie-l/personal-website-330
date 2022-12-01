@@ -5,6 +5,7 @@
 
     <!-- Import the webpage's javascript file -->
     <script src="app.js" defer></script>
+    <title>Stephenie's Personal Site</title>
 </head>
 
 <html lang="en">  
@@ -14,41 +15,48 @@
             <img class="logo" src="images/my-logo.png" alt="logo with initials">
             <a href="./home.html">Home</a>
             <a href="./bio.html">About Me</a>
-            <a href="./project1.html">Projects</a>
-            <a href="https://drive.google.com/file/d/1hxSSdpcq1Dw3CYdQ1asczWCyIj-EpNWI/view?usp=sharing">Resume</a>
-            <a href="./project1.html">Contact</a>
+            <a href="./project.html">Projects</a>
+            <a href="https://drive.google.com/file/d/1hxSSdpcq1Dw3CYdQ1asczWCyIj-EpNWI/view?usp=sharing" target="_blank">Resume</a>
+            <a href="#contactInfo">Contact</a>
         </nav>
         <main>
         <!-- intro includes left text and right photo -->
         <div class="intro">
             <div id="text">
-                <h3>HELLO THERE, I'M</h3>
+                <h3>HELLO THERE 👋, I'M</h3>
                 <h1>StephEnie Liew</h1>
-                <h2 style="text-align: left" id="intro">Junior Computer Science Student at Northwestern University</h2>  
+                <h2 style="text-align: left" id="short">Junior Computer Science Student at Northwestern University</h2>  
             </div>
             <div id="photo">
-                <img class="pic" src="images/IMG_2183.jpeg" alt="snow mountain in sunset"/>
+                <img class="pic" src="images/IMG_2183.jpeg" alt="friends in sunset"/>
             </div>
         </div> 
         <!-- projects -->
+        <div class="projects" id="projectSec">
+          <img class="projectPic" src="images/project1.png" alt="first project" onClick="window.location.href='https://stepheniel-a2.glitch.me/';">
+          <img class="projectPic" src="images/project2.png" alt="second project" onClick="window.location.href='https://stepheniel-a6.glitch.me/';">
+          <img class="projectPic" src="images/project3.png" alt="third project" onClick="window.location.href='https://stepheniel-a4.glitch.me/';">
+          <h2 id="vertTitle">Projects</h2>
+        </div>
+        <!-- artwork -->
         <div class="projects">
-          <h2>My Projects</h2>
-          
+            <h2 id="vertTitle">Artwork</h2>
+            <img class="projectPic" src="images/art1.jpeg" alt="first art">
+            <img class="projectPic" src="images/art2.png" alt="second art">
+            <img class="projectPic" src="images/art3.jpeg" alt="third art">
         </div>
         <!-- contact information -->
-        <div class="contact">
-            <h2>Contact Me</h2>
+        <div class="projects">
+          <h2 id="vertTitle">Contact Me</h2>
+          <div id="contactInfo">
+            <p>📱 Phone Number: </p>
+            <p id="noBold">872 235 5819</p>
+            <p>📧 Email: </p>
+            <p id="noBold">stephenieliew.us@gmail.com</p>
+            <p>🫂 LinkedIn: </p>
+            <p id="noBold">www.linkedin.com/in/stephenieliew2024</p>
+          </div>
         </div>
       </main>
   </body>
 </html>
-
-
-<!-- <div class="dinos" style="text-align: center">
-    <img class="round_pics" src="https://cdn.glitch.global/0423f3cc-128d-43a1-89da-968c6a2133c1/d76d836f-ddc1-4f3e-944c-ab4b5bc2244c.image.png?v=1664217272971" alt="happy dino">
-    <img class="round_pics" src="https://cdn.glitch.global/0423f3cc-128d-43a1-89da-968c6a2133c1/54dbde71-aaec-46b0-a134-d879249bda65.image.png?v=1664217222362" alt="mad dino">
-    <img class="round_pics" src="https://cdn.glitch.global/0423f3cc-128d-43a1-89da-968c6a2133c1/804f2e0e-0a7e-4134-838f-65cfc930c362.image.png?v=1664218691753" alt="yoho dino">
-  </div> 
-  <button onclick="feedDino()" style="text-align: left;">
-    feed your dino
-  </button> -->

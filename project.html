@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+  <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="app.js" defer></script>
+    <title>My Project</title>
+</head>
+
+<html lang="en">  
+  <body>
+        <!-- nav bar (vertical) -->
+        <nav>
+            <img class="logo" src="images/my-logo.png" alt="logo with initials">
+            <a href="./home.html">Home</a>
+            <a href="./bio.html">About Me</a>
+            <a href="./project.html">Projects</a>
+            <a href="https://drive.google.com/file/d/1hxSSdpcq1Dw3CYdQ1asczWCyIj-EpNWI/view?usp=sharing" target="_blank">Resume</a>
+            <a href="./home.html#contactInfo">Contact</a>
+        </nav>
+        <main>
+            <div class="intro">
+                <div id="photo">
+                    <img id ="bioPic" src="images/project1.png" alt="first project" onClick="window.location.href='https://stepheniel-a2.glitch.me/';">
+                </div>
+                <div id="projectMain">
+                    <h2 id="bioTitle">Animation Project</h2>
+                    <p>The gifs for this project are created using different techniques. The Loop Dinosaur uses the for loop technique and has two rows of little monsters with blinking colours. The Jumping Egg uses the polar coordinates with noise and the outline remaining. The robot apocalypse reuses patterns and duplicates them. But instead of putting the drawing function in the setup like the example did, I put in in draw so the canvas doesn't refresh and it's actually like an apocalypse. The last three animations are the same series, with the weather changing from stormy to sunny rain. They use the same rain pattern but with different amounts of rain drops and different backgrounds.</p>
+                    <a href="http://stepheniel-a2.glitch.me/"><button>See More</button></a>
+                </div>
+            </div> 
+            <div class="gifHolder">
+                <img class="gifs" src="images/stepheniel_a2-dino.gif" alt="loopy dinosaur">
+                <img class="gifs" src="images/a2 - 2 copy.gif" alt="loopy dinosaur">
+                <img class="gifs" src="images/a2 - 3 copy.gif" alt="loopy dinosaur">
+            </div>
+            <div class="gifHolder">
+                <img class="gifs" src="images/a2 - 4 copy.gif" alt="loopy dinosaur">
+                <img class="gifs" src="images/a2 - 5 copy.gif" alt="loopy dinosaur">
+                <img class="gifs" src="images/a2 - 6 copy.gif" alt="loopy dinosaur">
+            </div>
+        </main>
+  </body>
+</html>
