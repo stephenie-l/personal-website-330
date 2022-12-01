@@ -65,18 +65,24 @@ h1 {
 }
 
 h2 {
-  font-size: 25px;;
+  font-size: 30px;;
 }
 
 /* intro: container holding #text and #photo */
 .intro {
   display: flex;
   margin: 15pt;
+  padding-bottom: 150px;
+}
+
+#short {
+  font-size: 25px;
 }
 
 #text {
   margin: 50pt;
   margin-top: 120pt;
+  font-size: 15px;
   float: left;
 }
 
@@ -91,21 +97,90 @@ img {
 }
 
 /* projects*/
+.projects {
+  display: flex;
+  margin: auto;
+}
+
+#vertTitle {
+  font-size: 25px;
+  font-weight: 800;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-transform: uppercase;
+  padding: 45px;
+  padding-bottom: 200px;
+}
+
+.projectPic {
+  width: 300px;
+  height: 300px;
+  filter: drop-shadow(10px 10px 4px #d8b0a2);
+  padding: 25px;
+}
 
 
+#contactInfo {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#noBold {
+  font-weight: 400;
+}
+
+/* bio page */
+#bioMain {
+  margin-left: 170px;
+  margin-top: 100px;
+}
+
+#bioTitle {
+  font-size: 40px;
+}
+
+#bioPic {
+  margin-left: 80px;
+  width: 500px;
+  height: 500px;
+}
+
+p {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
 
 button {
-  background-color: #629263;
+  background-color: #b6d2ca;
   border-radius: 8pt;
   border: none;
-  color: lightpink;
+  color: #2c3e68;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-family: Optima, sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 16px;
+  margin-top: 20px;
+  font-family: Optima, sans-serif;
 }
 
+/* project page */
+#projectMain {
+  margin-left: 170px;
+}
 
+.gifHolder {
+  display: flex;
+  margin: auto;
+  margin-left: 100px;
+}
+
+.gifs {
+  width: 300px;
+  height: 300px; 
+  padding: 30px;
+}
